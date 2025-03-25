@@ -1,6 +1,6 @@
 if __name__ == '__main__':
     mi_lista = [1, 2, 3]
-    mi_lista.append(4)
+    mi_lista.append()
     print(mi_lista)
 
     mi_lista = [1, 2, 3]
