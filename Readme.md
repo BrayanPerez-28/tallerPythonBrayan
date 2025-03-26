@@ -60,7 +60,7 @@
 ### Calificaciones de los Retos
 
 Reto | Publicado | Entrega  | Título            | Calificación | Retroalimentación              |
----- |-----------|----------|-------------------|-------------|--------------------------------|
-  1  | 12/03/25  | 16/03/25 | Adivina el número | 90          | Aun no hemos visto excepciones |
-  2  | 19/03/25  | 23/03/25 |                   |             |                                |
+---- |-----------|----------|-------------------|--------------|--------------------------------|
+  1  | 12/03/25  | 16/03/25 | Adivina el número | 90           | Aun no hemos visto excepciones |
+  2  | 19/03/25  | 23/03/25 |                   |              |                                |
 
