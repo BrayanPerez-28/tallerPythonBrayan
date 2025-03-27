@@ -1,0 +1,10 @@
+{
+  "personas":[
+    {
+      "nombre": "Ferderico Peluche",
+      "edad": 45,
+      "ciudad": "San Martin Texmelucan",
+      "estado": "Puebla"
+    }
+  ]
+}
