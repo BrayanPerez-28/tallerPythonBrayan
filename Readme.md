@@ -62,5 +62,6 @@
 Reto | Publicado | Entrega  | Título            | Calificación | Retroalimentación              |
 ---- |-----------|----------|-------------------|--------------|--------------------------------|
   1  | 12/03/25  | 16/03/25 | Adivina el número | 90           | Aun no hemos visto excepciones |
-  2  | 19/03/25  | 23/03/25 | Inventario        |              |                                |
+  2  | 19/03/25  | 23/03/25 | Inventario        | 100          | Buen Trabajo                   |
+  3  | 26/03/25  | 31/03/25 | Gestión Biblioteca|              |                                |
 
