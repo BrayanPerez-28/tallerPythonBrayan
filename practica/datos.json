@@ -1,0 +1,34 @@
+{
+  "personas":[
+    {
+      "id": 100,
+      "nombre": "Karen",
+      "edad": 20,
+      "rfc": "PRUP121549"
+    },
+    {
+      "id": 101,
+      "nombre": "Jenifer",
+      "edad": 17,
+      "rfc": "POUN458612"
+    },
+    {
+      "id": 102,
+      "nombre": "Nelly",
+      "edad": 21,
+      "rfc": "JUHG125946"
+    },
+    {
+      "id": 103,
+      "nombre": "Ximena",
+      "edad": 36,
+      "rfc": "Puebla"
+    },
+    {
+      "id": 104,
+      "nombre": "Carlos",
+      "edad": 15,
+      "rfc": "HJUK485123"
+    }
+  ]
+}
