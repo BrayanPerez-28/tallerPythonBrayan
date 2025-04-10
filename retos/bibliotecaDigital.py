@@ -1,11 +1,11 @@
 class bibliotecaDigital:
-    def __init__(self):
-        self.__ISBM:str=""
-        self.__titulo:str=""
-        self.__autor:str=""
+    def __init__(self, ISBM:int, titulo:str, autor:str):
+        self.__ISBM = ISBM
+        self.__titulo = titulo
+        self.__autor = autor
 
     @property
-    def getISBM(self)->str:
+    def getISBM(self)->int:
         return self.__ISBM
 
     @property
@@ -17,27 +17,38 @@ class bibliotecaDigital:
         return self.__autor
 
 
-class modLibro(bibliotecaDigital):
-    def __init__(self, __ISBM, __titulo, __autor):
+class ModLibro(bibliotecaDigital):
+    def __init__(self):
         self.lista=[]
 
-    def add(self, __ISBM, __titulo, __autor):
-        self.lista.append(bibliotecaDigital(__ISBM, __titulo, __autor))
+    def add(self, ISBM:int, titulo:str, autor:str):
+        self.lista.append(bibliotecaDigital(ISBM, titulo, autor))
 
-    def delete(self, n):
-        self.lista.remove(bibliotecaDigital(n))
 
     def show(self):
         lib = bibliotecaDigital
-        for libro in self.lista:
+        for lib in self.lista:
             print(f"ISBM: {lib.getISBM}  Titulo: {lib.getTitulo} Autor: {lib.getAutor} \n")
 
 
+    def delete(self, ISMB:int):
+        lib = bibliotecaDigital
+        for lib in self.lista:
+            if lib.getISBM == ISMB:
+                self.lista.remove(lib)
+                break
+
 if __name__ == '__main__':
-    libros = modLibro
-    libros.add("Don Quijote", "El mar","nuevoAutor")
-    libros.add("Don Quijote", "El mar","nuevoAutor")
-    libros.add("Don Quijote", "El mar","nuevoAutor")
-    libros.add("Don Quijote", "El mar","nuevoAutor")
+    libros = ModLibro()
+    libros.add(4, "El mar","nuevoAutor")
+    libros.add(3, "El mar","nuevoAutor")
+    libros.add(2, "El mar","nuevoAutor")
+    libros.add(1, "El mar","nuevoAutor")
+    libros.show()
+
+    print("Se elimina un libro ")
+    libros.delete(1)
 
     libros.show()
+
+
